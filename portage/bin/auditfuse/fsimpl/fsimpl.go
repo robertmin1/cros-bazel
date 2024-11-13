@@ -12,7 +12,7 @@ import (
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 
-	"cros.local/bazel/portage/bin/auditfuse/reporter"
+	"github.com/robertmin1/cros-bazel/portage/bin/auditfuse/reporter"
 )
 
 type AuditNode struct {

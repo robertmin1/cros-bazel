@@ -10,9 +10,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"cros.local/bazel/portage/bin/fakefs/exit"
-	"cros.local/bazel/portage/bin/fakefs/tracee"
-	"cros.local/bazel/portage/bin/fakefs/tracer"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/exit"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/tracee"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/tracer"
 )
 
 var flagTracee = &cli.BoolFlag{

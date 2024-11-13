@@ -14,7 +14,7 @@ import (
 	"golang.org/x/net/bpf"
 	"golang.org/x/sys/unix"
 
-	"cros.local/bazel/portage/bin/fakefs/hooks"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/hooks"
 )
 
 func setUpSeccompBPF() error {

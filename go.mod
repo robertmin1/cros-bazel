@@ -1,4 +1,4 @@
-module cros.local/bazel
+module github.com/robertmin1/cros-bazel
 
 go 1.18
 

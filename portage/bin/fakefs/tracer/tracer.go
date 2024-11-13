@@ -12,10 +12,10 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"cros.local/bazel/portage/bin/fakefs/exit"
-	"cros.local/bazel/portage/bin/fakefs/hooks"
-	"cros.local/bazel/portage/bin/fakefs/logging"
-	"cros.local/bazel/portage/bin/fakefs/ptracearch"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/exit"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/hooks"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/logging"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/ptracearch"
 )
 
 func startTracee(args []string, preloadPath string, verbose bool) (pid int, err error) {

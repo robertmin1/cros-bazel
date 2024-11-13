@@ -4,7 +4,7 @@
 
 package syscallabi
 
-import "cros.local/bazel/portage/bin/fakefs/ptracearch"
+import "github.com/robertmin1/cros-bazel/portage/bin/fakefs/ptracearch"
 
 // See man 2 syscall for the system call calling convention.
 

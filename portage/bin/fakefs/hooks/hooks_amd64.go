@@ -16,10 +16,10 @@ import (
 	"golang.org/x/net/bpf"
 	"golang.org/x/sys/unix"
 
-	"cros.local/bazel/portage/bin/fakefs/fsop"
-	"cros.local/bazel/portage/bin/fakefs/logging"
-	"cros.local/bazel/portage/bin/fakefs/ptracearch"
-	"cros.local/bazel/portage/bin/fakefs/syscallabi"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/fsop"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/logging"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/ptracearch"
+	"github.com/robertmin1/cros-bazel/portage/bin/fakefs/syscallabi"
 )
 
 // sysIsFakefsRunning is a fake system call number that fakefs intercepts to
